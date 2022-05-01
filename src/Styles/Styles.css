@@ -12,7 +12,7 @@
   font-size: 18px;
 }
 .footer {
-  background-color: rgb(43, 48, 54);
+  background-color: rgb(71, 73, 77);
   color: aliceblue;
   text-align: center;
   font-size: 14px;
@@ -88,7 +88,7 @@ h3 {
   margin-right: 50px;
 }
 
-.carousel-caption {
+/* .carousel-caption {
   height: 40vh;
   top: 10%;
   position: absolute;
@@ -99,7 +99,7 @@ h3 {
   padding-bottom: 0;
   color: #fff;
   text-align: center;
-}
+}*/
 
 .carousel-caption h1 {
   color: white;
@@ -121,9 +121,9 @@ h3 {
   bottom: 0;
   left: 0;
 } */
-.carousel-inner {
+/* .carousel-inner {
   max-height: 70vh !important;
-}
+} */
 
 /* .heigth {
   display: flex !important;

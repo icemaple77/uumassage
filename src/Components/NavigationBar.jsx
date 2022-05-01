@@ -13,25 +13,24 @@ function NavigationBar() {
   return (
     <Router>
       <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-        <Container>
-          <Navbar.Brand>
-            <img src={logo} alt="logo" />
-            Urban Unwind Massage
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/Services">Services</Nav.Link>
-              <Nav.Link href="/Packages">Packages</Nav.Link>
-              <Nav.Link href="/AboutUs">About Us</Nav.Link>
-              <Nav.Link href="/Contact">Contact</Nav.Link>
-            </Nav>
-            <Nav>
-              <Nav.Link>Have a nice day!</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
+        {"    "}
+        <Navbar.Brand>
+          <img src={logo} alt="logo" />
+          Urban Unwind Massage
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/Services">Services</Nav.Link>
+            <Nav.Link href="/Packages">Packages</Nav.Link>
+            <Nav.Link href="/AboutUs">About Us</Nav.Link>
+            <Nav.Link href="/Contact">Contact</Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link>Booking: 04 6885 1559, Have a nice day!</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
       </Navbar>
       <Routes>
         <Route path="/" element={<Home />} />

@@ -10,26 +10,26 @@ function CarouselBanner() {
       <Carousel.Item>
         <img className="d-block w-100" src={Banner} alt="First slide" />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img className="d-block w-100" src={Banner} alt="Second slide" />
-
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img className="d-block w-100" src={Banner} alt="Third slide" />
-
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h1>Urban Unwind Massage </h1>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Elegant environment. Professional technology. Different enjoyment.
           </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={Banner2} alt="Second slide" />
+
+        <Carousel.Caption>
+          <h1>Best Experience</h1>
+          <p>Deep enjoyment, reduce stress, relax body and mind.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={Banner3} alt="Third slide" />
+
+        <Carousel.Caption>
+          <h1>Embrace happiness every day</h1>
+          <p>Pick up your phone now and start booking our services.</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

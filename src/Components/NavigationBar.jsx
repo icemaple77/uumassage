@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../Styles/Styles.css";
 import Home from "../Pages/Home";
 import Services from "../Pages/Services";
 import Packages from "../Pages/Packages";
 import AboutUs from "../Pages/AboutUs";
-import Contact from "../Pages/Contact";
+import ContactUs from "../Pages/Contactus";
 import GetFooter from "../Components/Footer";
 import logo from "../Images/logo.png";
 function NavigationBar() {
@@ -25,7 +25,7 @@ function NavigationBar() {
             <Nav.Link href="/Services">Services</Nav.Link>
             <Nav.Link href="/Packages">Packages</Nav.Link>
             <Nav.Link href="/AboutUs">About Us</Nav.Link>
-            <Nav.Link href="/Contact">Contact</Nav.Link>
+            <Nav.Link href="/ContactUs">ContactUs</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link>Booking: 04 6885 1559, Have a nice day!</Nav.Link>
@@ -37,7 +37,7 @@ function NavigationBar() {
         <Route path="/Services" element={<Services />} />
         <Route path="/Packages" element={<Packages />} />
         <Route path="/AboutUs" element={<AboutUs />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route path="/ContactUs" element={<ContactUs />} />
       </Routes>
       <GetFooter />
     </Router>

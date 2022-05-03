@@ -22,7 +22,7 @@ function Home() {
         </Row>
         <div className="margin" />
         <Row>
-          <img src={hr} />
+          <img alt="" src={hr} />
         </Row>
         <div className="margin" />
         <Row>

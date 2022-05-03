@@ -88,6 +88,9 @@ h3 {
   margin-right: 50px;
 }
 
+.textleft {
+  text-align: left;
+}
 /* .carousel-caption {
   height: 40vh;
   top: 10%;

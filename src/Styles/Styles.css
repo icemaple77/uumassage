@@ -78,8 +78,8 @@ h3 {
   color: aliceblue;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.left {
-  margin-right: 5px;
+.margin {
+  margin: 10px;
 }
 .width {
   width: 300px;

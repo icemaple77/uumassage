@@ -1,10 +1,10 @@
 import "../Styles/Styles.css";
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import card1 from "../Images/card1.jpg";
-import card2 from "../Images/card2.jpg";
-import card3 from "../Images/card3.jpg";
 import CarouselBanner from "../Components/CarouselBanner";
+import Cards from "../Components/Cards";
+import hr from "../Images/hr.jpg";
+import According from "../Components/Introduction";
 function Home() {
   return (
     <div>
@@ -17,9 +17,17 @@ function Home() {
           </h3>
         </Row>
         <div className="h50"></div>
-        <Row></Row>
-        <Row></Row>
-        <Row></Row>
+        <Row>
+          <Cards />
+        </Row>
+        <div className="margin" />
+        <Row>
+          <img src={hr} />
+        </Row>
+        <div className="margin" />
+        <Row>
+          <According />
+        </Row>
       </Container>
     </div>
   );

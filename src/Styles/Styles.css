@@ -19,14 +19,47 @@ h2 {
   text-align: center;
   color: rgb(43, 48, 54);
   font-family: "Sundays";
-  font-size: 10vh;
-  text-shadow: #1e242b --3px;
+  font-size: 7vh;
+
+  margin-top: 50px;
 }
 .icon {
   text-align: center;
   color: rgb(102, 102, 102);
   font-family: "Sundays";
   font-size: 18px;
+}
+.sc {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: left !important;
+  letter-spacing: 0em;
+  text-transform: none;
+  font-family: Lato;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 1.2em;
+  text-transform: uppercase;
+}
+.price {
+  color: #413366d7;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 7vh;
+}
+.service {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+.title-md {
+  text-align: left;
+  color: rgb(20, 22, 24);
+  font-family: "Sundays";
+  font-size: 5vh;
+  text-shadow: #1e242b --3px;
+  margin-top: 5px;
 }
 .footer {
   background-color: rgb(71, 73, 77);
@@ -35,15 +68,31 @@ h2 {
   font-size: 14px;
   margin: 0px;
   margin-top: 100px;
-  padding: 5px;
+  padding: 50px 10px;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+.nav-text {
+  margin-left: 15px;
+  margin-right: 10px;
+  text-align: center;
+  color: rgb(17, 12, 44);
+  text-shadow: 1px 1px #100c24;
+  font-family: "Sundays";
+  font-size: 3vh;
+}
+.box {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 2px 2px #93a2b1;
 }
 .title-small {
   text-align: center;
-  color: rgb(31, 28, 37);
-  font-family: "Sundays";
+  color: rgb(2, 2, 2);
+  font-family: Jules;
+  src: url("https://static1.squarespace.com/static/5fb59af39d231030c64138f7/t/5fbab4049876b8736cd08f19/1606071300591/Jules-Regular.otf");
   margin-top: 2vh;
 }
+
 h3 {
   text-align: center;
   color: rgb(43, 48, 54);
@@ -86,10 +135,19 @@ h3 {
   color: #000000e0;
 }
 .context {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 16px;
+  color: rgb(89, 95, 116);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2vh;
   text-align: center;
+  line-height: 200%;
   padding: 1em;
+}
+.context-s {
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  text-align: left;
+  margin-bottom: 15px;
+  line-height: 200%;
 }
 #btnGroupAddon {
   background-color: #000000e0;

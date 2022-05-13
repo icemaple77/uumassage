@@ -14,17 +14,17 @@ function NavigationBar() {
     <Router>
       <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
         <Navbar.Brand>
-          <p className="title-small">
-            <img src={logo} alt="logo" />
-            Urban Unwind Massage
+          <p>
+            <img className="nav-text" src={logo} alt="logo" />
+            <b className="nav-text">Urban Unwind Massage</b>
           </p>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            {/* <Nav.Link href="/Services">Services</Nav.Link>
-            <Nav.Link href="/Packages">Packages</Nav.Link>
+            <Nav.Link href="/Services">Services</Nav.Link>
+            {/* <Nav.Link href="/Packages">Packages</Nav.Link>
             <Nav.Link href="/AboutUs">About Us</Nav.Link>
             <Nav.Link href="/ContactUs">ContactUs</Nav.Link> */}
           </Nav>

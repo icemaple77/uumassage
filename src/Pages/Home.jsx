@@ -3,15 +3,24 @@ import { Container, Row } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import CarouselBanner from "../Components/CarouselBanner";
 import Cards from "../Components/Cards";
-import hr from "../Images/hr.jpg";
-import According from "../Components/Introduction";
+
 function Home() {
   return (
     <div>
       <CarouselBanner />
       <Container>
         <Row>
-          <h1 className="title">Welcom to Urban Unwind Massage</h1>
+          <h1 className="title">Welcome to Urban Unwind Massage</h1>
+          <p className="context">
+            <br></br>
+            Whether you need relief from pain or
+            <br></br>
+            emotional support during a difficult time,
+            <br></br>
+            Massage Therapy makes a difference.
+          </p>
+          <div className="h10"></div>
+          <p className="context">IT'S POSSIBLE TO FEEL BETTER.</p>
           <h3 className="title-small">
             Our different services, let you have a different experience.
           </h3>
@@ -21,13 +30,13 @@ function Home() {
           <Cards />
         </Row>
         <div className="margin" />
-        <Row>
+        {/* <Row>
           <img alt="" src={hr} />
-        </Row>
+        </Row> */}
         <div className="margin" />
-        <Row>
+        {/* <Row>
           <According />
-        </Row>
+        </Row> */}
       </Container>
     </div>
   );

@@ -2,6 +2,8 @@ import "../Styles/Styles.css";
 import { Col, Container, Row } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import add1 from "../Images/add1.jpg";
+import add2 from "../Images/add2.jpg";
+import add3 from "../Images/add3.jpg";
 
 function Services() {
   return (
@@ -23,7 +25,6 @@ function Services() {
               style as desired.
             </p>
             <p className="context-s">
-              {" "}
               Deep Tissue sessions incorporate more targeted techniques using
               forearm + elbow work to address trigger points, chronic tension
               and muscular restriction due to injury or overuse.
@@ -43,7 +44,7 @@ function Services() {
       <div className="service">
         <Row>
           <Col>
-            <img className=" box" src={add1} alt="add1"></img>{" "}
+            <img className=" box" src={add3} alt="add1"></img>{" "}
           </Col>
           <Col lg md={8} xs={12}>
             <h3 className="context-s">OUR RELX SERVICE</h3>
@@ -95,7 +96,7 @@ function Services() {
             </p>
           </Col>
           <Col>
-            <img className=" box" src={add1} alt="add1"></img>
+            <img className=" box" src={add2} alt="add1"></img>
           </Col>
         </Row>
       </div>

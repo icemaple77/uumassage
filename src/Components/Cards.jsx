@@ -23,12 +23,12 @@ function Cards() {
         <Card>
           <Card.Img variant="top" src={card2} />
           <Card.Body>
-            <Card.Title>Price</Card.Title>
+            <Card.Title>Our Team</Card.Title>
             <Card.Text>
-              We offer a wide range of services to your satisfaction.
+              Have professional massage techniques to help you relax your body.
             </Card.Text>
-            <Button variant="dark" href="/Packages">
-              Price
+            <Button variant="dark" href="/AboutUs">
+              Our Team
             </Button>
           </Card.Body>
         </Card>
@@ -37,12 +37,12 @@ function Cards() {
         <Card>
           <Card.Img variant="top" src={card3} />
           <Card.Body>
-            <Card.Title>Our Team</Card.Title>
+            <Card.Title>Contact Us</Card.Title>
             <Card.Text>
               We offer a wide range of services to your satisfaction.
             </Card.Text>
-            <Button variant="dark" href="/AboutUs">
-              Our Team
+            <Button variant="dark" href="/ContactUs">
+              ContactUs
             </Button>
           </Card.Body>
         </Card>

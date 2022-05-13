@@ -25,8 +25,8 @@ function NavigationBar() {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/Services">Services</Nav.Link>
             {/* <Nav.Link href="/Packages">Packages</Nav.Link>
-            <Nav.Link href="/AboutUs">About Us</Nav.Link>
-            <Nav.Link href="/ContactUs">ContactUs</Nav.Link> */}
+            <Nav.Link href="/AboutUs">About Us</Nav.Link> */}
+            <Nav.Link href="/ContactUs">ContactUs</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link>Booking: 04 6885 1559, Have a nice day!</Nav.Link>

@@ -13,19 +13,20 @@ function NavigationBar() {
   return (
     <Router>
       <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-        {"    "}
         <Navbar.Brand>
-          <img src={logo} alt="logo" />
-          Urban Unwind Massage
+          <p className="title-small">
+            <img src={logo} alt="logo" />
+            Urban Unwind Massage
+          </p>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/Services">Services</Nav.Link>
+            {/* <Nav.Link href="/Services">Services</Nav.Link>
             <Nav.Link href="/Packages">Packages</Nav.Link>
             <Nav.Link href="/AboutUs">About Us</Nav.Link>
-            <Nav.Link href="/ContactUs">ContactUs</Nav.Link>
+            <Nav.Link href="/ContactUs">ContactUs</Nav.Link> */}
           </Nav>
           <Nav>
             <Nav.Link>Booking: 04 6885 1559, Have a nice day!</Nav.Link>

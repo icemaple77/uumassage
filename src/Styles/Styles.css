@@ -1,14 +1,31 @@
+@font-face {
+  font-family: "Sundays";
+  src: url("https://static1.squarespace.com/static/5fb59af39d231030c64138f7/t/5fb6e01e9bd750165985c2a0/1605820446241/SUNDAYS.otfhttps://static1.squarespace.com/static/5fb59af39d231030c64138f7/t/5fb6e01e9bd750165985c2a0/1605820446241/SUNDAYS.otfhttps://static1.squarespace.com/static/5fb59af39d231030c64138f7/t/5fb6e01e9bd750165985c2a0/1605820446241/SUNDAYS.otf")
+      format("otf"),
+    url("https://static1.squarespace.com/static/5fb59af39d231030c64138f7/t/5fb6e013c04c344b331f6be2/1605820435130/SUNDAYSRegular.woff2")
+      format("woff");
+}
+h1 {
+  font-family: "Sundays" !important;
+}
+h2 {
+  font-family: "Sundays" !important;
+}
+@font-face {
+  font-family: Jules;
+  src: url("https://static1.squarespace.com/static/5fb59af39d231030c64138f7/t/5fbab4049876b8736cd08f19/1606071300591/Jules-Regular.otf");
+}
 .title {
   text-align: center;
   color: rgb(43, 48, 54);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 7vh;
-  text-shadow: #343a40 --2px;
+  font-family: "Sundays";
+  font-size: 10vh;
+  text-shadow: #1e242b --3px;
 }
 .icon {
   text-align: center;
   color: rgb(102, 102, 102);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Sundays";
   font-size: 18px;
 }
 .footer {
@@ -19,12 +36,13 @@
   margin: 0px;
   margin-top: 100px;
   padding: 5px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .title-small {
   text-align: center;
-  color: rgb(165, 175, 175);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(31, 28, 37);
+  font-family: "Sundays";
+  margin-top: 2vh;
 }
 h3 {
   text-align: center;
@@ -103,6 +121,12 @@ h3 {
   color: #fff;
   text-align: center;
 }*/
+.Cards {
+  justify-items: auto;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
 .carousel-caption h1 {
   color: white;
@@ -133,3 +157,49 @@ h3 {
   justify-content: center;
   align-items: center;
 } */
+
+#block-10753cf31d9f0e038e75 {
+  background: #fff;
+  opacity: 0.75;
+  padding: 40px;
+  text-align: center;
+}
+
+.sqs-block-quote {
+  font-family: "Jules" !important;
+}
+blockquote {
+  color: #0e0e47;
+  font-size: 50px;
+  font-family: "Jules" !important;
+  font-weight: bold;
+}
+.newsletter-block .newsletter-form-field-element {
+  background-color: transparent !important;
+  border: 0px solid;
+  border-bottom: 1px solid #000;
+}
+.newsletter-block .newsletter-form-field-element {
+  font-family: Lato;
+}
+.newsletter-form-button-label {
+  font-family: Sundays;
+  text-transform: none;
+  letter-spacing: 0.2em;
+}
+.newsletter-block .newsletter-form-button {
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #000 !important;
+}
+.sqs-block-markdown h3 {
+  border-bottom: 1px solid #e7e4df;
+  padding: 14px;
+}
+.sqs-block-markdown h3 {
+  color: #000;
+}
+.Mobile-bar--top {
+  padding-top: 50px !important;
+  padding-bottom: 0px !important;
+}

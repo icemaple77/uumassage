@@ -6,7 +6,7 @@ function Cards() {
   return (
     <Row>
       <Col>
-        <Card style={{ width: "22rem" }}>
+        <Card>
           <Card.Img variant="top" src={card1} />
           <Card.Body>
             <Card.Title>Services</Card.Title>
@@ -20,7 +20,7 @@ function Cards() {
         </Card>
       </Col>
       <Col>
-        <Card style={{ width: "22rem" }}>
+        <Card>
           <Card.Img variant="top" src={card2} />
           <Card.Body>
             <Card.Title>Price</Card.Title>
@@ -34,7 +34,7 @@ function Cards() {
         </Card>
       </Col>
       <Col>
-        <Card style={{ width: "22rem" }}>
+        <Card>
           <Card.Img variant="top" src={card3} />
           <Card.Body>
             <Card.Title>Our Team</Card.Title>

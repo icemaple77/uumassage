@@ -49,7 +49,7 @@ function Services() {
           <Col lg md={8} xs={12}>
             <h3 className="context-s">OUR RELX SERVICE</h3>
             <p className="title-md">Relaxation Massage.</p>
-            <p className="price">30 Minute $40 | 60 Minute $60</p>
+            <p className="price">30 Minute $45 | 60 Minute $65</p>
             <p className="context-s">
               Have professional massage techniques to help you relax your body.
             </p>
@@ -78,7 +78,7 @@ function Services() {
           <Col lg md={8} xs={12}>
             <h3 className="context-s">OUR SPECIAL SERVICE</h3>
             <p className="title-md">Prostate Massage</p>
-            <p className="price">30 Minute $100 | 60 Minute $150</p>
+            <p className="price">30 Minute $110 | 60 Minute $160</p>
             <p className="context-s">
               Prostate massage therapy is a therapy that relieves the stagnation
               of prostatic secretions, improves local blood circulation, and

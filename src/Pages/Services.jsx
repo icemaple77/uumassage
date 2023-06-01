@@ -49,7 +49,7 @@ function Services() {
           <Col lg md={8} xs={12}>
             <h3 className="context-s">OUR RELX SERVICE</h3>
             <p className="title-md">Relaxation Massage.</p>
-            <p className="price">30 Minute $45 | 60 Minute $65</p>
+            <p className="price">30 Minute $50 | 60 Minute $70</p>
             <p className="context-s">
               Have professional massage techniques to help you relax your body.
             </p>
